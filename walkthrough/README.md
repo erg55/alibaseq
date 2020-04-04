@@ -32,16 +32,16 @@ Seems to be working so I will submit a job called blast.sh
 #SBATCH --job-name=blast
 #SBATCH -N 1
 #SBATCH -n 1
-#SBATCH -c 20
+#SBATCH -c 12
 #SBATCH --partition=general
 #SBATCH --qos=general
 #SBATCH --mail-type=END
-#SBATCH --mem=150G
+#SBATCH --mem=75G
 #SBATCH --mail-user=eric.gordon@uconn.edu
 #SBATCH -o myscript_%j.out
 #SBATCH -e myscript_%j.err 
 cd ~/regrouped/regrouped/single/
-bash ~/alibaseq/blast_wrapper.sh . /home/CAM/aporczak/AHEloci/MBlastDB/ 1e-05 tblastx 20 y ./LIST
+bash ~/alibaseq/blast_wrapper.sh . /home/CAM/aporczak/AHEloci/MBlastDB/ 1e-05 tblastx 12 y ./LIST
 ```
 ```
 sbatch blast.sh 
