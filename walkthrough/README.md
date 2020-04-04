@@ -59,6 +59,30 @@ It took half an hour....In general i now have alignments with lots of N's.
 
 In general, the alignments look good but in some I can see some signs of bits of paralogs slipping in some of the sequences. Almost all loci have all 43 taxa represented but a significant amount have very sequences which perhaps had particularly bad bait sequences. 
 
-For the first iteration I probably shouldn't do any contig stitching since the initial bait sequences are so odd. I'm also going to up the evalue to something a bit less permissive. I will also use the -q paramater option so can I append the results to the intial baits and see more obviously how that sequence looks in the alignment and whether that contributed to any of the problems. 
+For the first iteration I probably shouldn't do any contig stitching since the initial bait sequences are so odd. I'm also going to up the evalue to something a bit less permissive. I will also use the -q paramater option so can I append the results to the intial baits and see more obviously how that sequence looks in the alignment and whether that contributed to any of the problems. Also i will use the -o option so I can save the previous results
 
-python ~/alibaseq/alibaseq.py -x b -f M -b ./blast_results/ -c 1 -e 1e-15  --ac tdna-tdna -t /home/CAM/aporczak/AHEloci/MBlastDB/ -q ~/regrouped/regrouped/single/
+```
+python ~/alibaseq/alibaseq.py -x b -f M -b ./blast_results/ -c 1 -e 1e-15  --ac tdna-tdna -t /home/CAM/aporczak/AHEloci/MBlastDB/ -q ~/regrouped/regrouped/single/ -o ./nostitching
+```
+
+This took 9 minutes. I still see some evidence of paralogs.....I think the first iteration should probably be extremely stringent so I will repeat with 1e-125 hoping to get at least one relaible in group sequence for all the loci which...might not occur. 
+
+```
+python ~/alibaseq/alibaseq.py -x b -f M -b ./blast_results/ -c 1 -e 1e-125  --ac tdna-tdna -t /home/CAM/aporczak/AHEloci/MBlastDB/ -q ~/regrouped/regrouped/single/ -o ./nostitchinghighcutoff
+```
+
+
+This stringency greatly improved my alignments....with longer sequences being pulled out for most taxa so perhaps less than perfect sequences were pulled out for some reason? Looking at one example for I27929 there are only two contigs with a higher evalue than 1e-25 and many with a higher evalue than 1e-15 
+
+NODE_80_length_4862_cov_16.719122 and NODE_132_length_3988_cov_6.517003
+
+Neither of those are chosen instead it is NODE_1731_length_1093_cov_65.862205...it has the highest identity? of 96? 
+
+./T133_L100.fas	NODE_1731_length_1093_cov_65.862205	96.923	65	2	0	1231	1425	614	420	6.07e-38	155
+
+Oddly that sequence is shorter than the output of that sequence?
+
+It's actually choosing NODE_80_length_4862_cov_16.719122 but output doesn't show that? Also Node 80 has a lower bit score and evalue than the aternative but not summed up over entire length I guess? 
+
+Anyways this is giving us better results. 
+
