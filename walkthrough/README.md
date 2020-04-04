@@ -84,5 +84,9 @@ Oddly that sequence is shorter than the output of that sequence?
 
 It's actually choosing NODE_80_length_4862_cov_16.719122 but output doesn't show that? Also Node 80 has a lower bit score and evalue than the aternative but not summed up over entire length I guess? 
 
-Anyways this is giving us better results. 
+Anyways this is giving us better results. But there are many loci with nothing passing through the filter unfortunately. Let's adjust the evalue to be slightly less stringent
+
+```
+python ~/alibaseq/alibaseq.py -x b -f M -b ./blast_results/ -c 1 -e 1e-75 --ac tdna-tdna -t /home/CAM/aporczak/AHEloci/MBlastDB/ -q ~/regrouped/regrouped/single/ -o ./nostitchinglowercutoff
+```
 
