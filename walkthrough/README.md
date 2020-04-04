@@ -46,3 +46,19 @@ bash ~/alibaseq/blast_wrapper.sh . /home/CAM/aporczak/AHEloci/MBlastDB/ 1e-05 tb
 ```
 sbatch blast.sh 
 ```
+
+That took 3 hours 20 minutes for 43 sequence capture assemblies. 
+
+Trying with just the tutorial command at first which extracts region between two outmost hit regions in max of one supercontig with a very permissive evalue of 1e-05 and with contig stitching allowed
+
+```
+python ~/alibaseq/alibaseq.py -x b -f M -b ./blast_results/ -c 1 -e 1e-05 --is --ac tdna-tdna -t /home/CAM/aporczak/AHEloci/MBlastDB/
+```
+
+It took half an hour....In general i now have alignments with lots of N's.
+
+In general, the alignments look good but in some I can see some signs of bits of paralogs slipping in some of the sequences. Almost all loci have all 43 taxa represented but a significant amount have very sequences which perhaps had particularly bad bait sequences. 
+
+For the first iteration I probably shouldn't do any contig stitching since the initial bait sequences are so odd. I'm also going to up the evalue to something a bit less permissive. I will also use the -q paramater option so can I append the results to the intial baits and see more obviously how that sequence looks in the alignment and whether that contributed to any of the problems. 
+
+python ~/alibaseq/alibaseq.py -x b -f M -b ./blast_results/ -c 1 -e 1e-15  --ac tdna-tdna -t /home/CAM/aporczak/AHEloci/MBlastDB/ -q ~/regrouped/regrouped/single/
