@@ -90,3 +90,5 @@ Anyways this is giving us better results. But there are many loci with nothing p
 python ~/alibaseq/alibaseq.py -x b -f M -b ./blast_results/ -c 1 -e 1e-75 --ac tdna-tdna -t /home/CAM/aporczak/AHEloci/MBlastDB/ -q ~/regrouped/regrouped/single/ -o ./nostitchinglowercutoff
 ```
 
+
+Hmm ok that was a problem with how i was looking at versions....but I will try a low evalue with the --amalgamate-hits with the --metric-merge-corr option. Also elimating the -q option for now to prevent confusion in the log files. 
