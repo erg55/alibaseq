@@ -121,7 +121,7 @@ In vertebrates, UCEs appear to be a unique sequence element that doesn't code fo
 
 *Will this program work for pulling out vertebrate UCEs?* 
 
-Yes!.... but probably almost all alternatives will work well too. One advanatage of this program could be xxx? But maybe not. I don't work on your dirty vertbrates. 
+Yes!.... but probably almost all alternatives will work well too. One advanatage of this program could be xxx? But maybe not. I don't work on your dirty vertebrates. 
 
 
 
