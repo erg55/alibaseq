@@ -113,7 +113,7 @@ It can be used an transcriptomic, low coverage or well-assembled genomic data or
 
 *What is the best way to assess different parameters I've used to determine which ones work the best in terms of low false postive rates and maximum recovery?*
 
-*I work on a non-model organism and I have a a very low coverage genome but I want to include it in a phylogenetci analysis with some well relatively well sequences trancriptomes from the same kind or organism. What is the best way to test out the program to see if it works for me?*
+*I work on a non-model organism and I have a a very low coverage genome but I want to include it in a phylogenetic analysis with some well relatively well sequences trancriptomes from the same kind or organism without any annotations. What is the best way to test out the program to see if it works for me?*
 
 
 
