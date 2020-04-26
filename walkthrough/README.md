@@ -103,11 +103,11 @@ Any kind of genetic datasets in which you want to analyse a subset of loci for a
 
 It can be used on transcriptomic, low coverage or well-assembled genomic data or sequence capture assemblies. It is especially useful for combining these different types of data for a comprehensive phylogenetic analysis. It is also particularly robust for recovering genes across large phylogenetic distances unlike many other programs.
 
-*If I want to recover a set of pre-determined loci from newly sequences transcriptomes what default parametrs would I use? What parameters might I adjust to get better recovery?*
+*If I want to recover a set of pre-determined loci from newly sequences transcriptomes what default parameters would I use? What parameters might I adjust to get better recovery?*
 
-*If I want to recover a set of pre-determined loci from newly sequenced low coverage genome data what default parametrs would I use? What parameters might I adjust to get better recovery? *
+*If I want to recover a set of pre-determined loci from newly sequenced low coverage genome data what default parameters would I use? What parameters might I adjust to get better recovery? *
 
-*If I want to recover a set of pre-determined loci from newly sequenced target capture data what default parametrs would I use? What parameters might I adjust to get better recovery? *
+*If I want to recover a set of pre-determined loci from newly sequenced target capture data what default parameters would I use? What parameters might I adjust to get better recovery? *
 
 *Why is this program using Python 2....you are a noob!*
 
