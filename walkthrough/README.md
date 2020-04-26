@@ -117,11 +117,11 @@ It can be used on transcriptomic, low coverage or well-assembled genomic data or
 
 *Aren't UCEs and AHE loci very different? Why didn't you evaluate AHE loci?* 
 
-In vertebrates UCEs appear to be a unique sewuence element that doesn't code for proteins. In invertebrates, the most highly conserved sequnces are almost entirely exonic and are part of a protein coding sequence. 
+In vertebrates, UCEs appear to be a unique sequence element that doesn't code for proteins. In invertebrates, the most highly conserved sequences are almost entirely exonic and are part of a protein coding sequence. 
 
 *Will this program work for pulling out vertebrate UCEs?* 
 
-Yes!.... but probably almost all alternatives will work well too. One advanatge of this program could be xxx? But maybe not. I don't work on your dirty vertbrates. 
+Yes!.... but probably almost all alternatives will work well too. One advanatage of this program could be xxx? But maybe not. I don't work on your dirty vertbrates. 
 
 
 
