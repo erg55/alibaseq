@@ -97,7 +97,7 @@ Hmm ok that was a problem with how i was looking at versions....but I will try a
 
 OK Nevermind...FAQ: 
 
-*What kinds of datasets can are suitable for AliBaSeq?*
+*What kinds of datasets are suitable for AliBaSeq?*
 
 Any kind of genetic datasets in which you want to analyse a subset of loci for a phylogeny. The subset may include predetermined single copy orthologous genes (BUSCO or OrthoDB), predetermined genes for which probes are supposed to enrich loci (targetted capture, UCE or AHE approaches) or even other datasets in which you want to recover a set of known genes for new taxa for further analysis (e.g., like salivary proteins?). 
 
