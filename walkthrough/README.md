@@ -123,9 +123,6 @@ In vertebrates, UCEs appear to be a unique sequence element that doesn't code fo
 
 Yes!.... but probably almost all alternatives will work well too. One advantage of this program could be xxx? But maybe not. I don't work on your dirty vertebrates. 
 
-*Someone at the dollar store was trying to tell me about RELECs......will your pipeline work to pull out these very cool and so long and nice exons too??* 
-
-Probably...but I don't think they exist in invertebrates...I have not fully investigated but yes basically this is exactly the scenario that this program would work the best at! 
 
 
 
