@@ -115,7 +115,13 @@ It can be used on transcriptomic, low coverage or well-assembled genomic data or
 
 *I work on a non-model organism and I have a a very low coverage genome but I want to include it in a phylogenetic analysis with some well relatively well sequenced trancriptomes from the same kind or organism without any annotations. What is the best way to test out the program to see if it works for me?*
 
+*Aren't UCEs and AHE loci very different? Why didn't you evaluate AHE loci?* 
 
+In vertebrates UCEs appear to be a unique sewuence element that doesn't code for proteins. In invertebrates, the most highly conserved sequnces are almost entirely exonic and are part of a protein coding sequence. 
+
+*Will this program work for pulling out vertebrate UCEs?* 
+
+Yes!.... but probably almost all alternatives will work well too. One advanatge of this program could be xxx? But maybe not. I don't work on your dirty vertbrates. 
 
 
 
