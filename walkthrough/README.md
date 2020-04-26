@@ -92,3 +92,32 @@ python ~/alibaseq/alibaseq.py -x b -f M -b ./blast_results/ -c 1 -e 1e-75 --ac t
 
 
 Hmm ok that was a problem with how i was looking at versions....but I will try a low evalue with the --amalgamate-hits with the --metric-merge-corr option. Also elimating the -q option for now to prevent confusion in the log files. 
+
+
+
+OK Nevermind...FAQ: 
+
+*What kinds of datasets can are suitable for AliBaSeq?*
+
+Any kind of genetic datasets in which you want to analyse a subset of loci for a phylogeny. The subset may include predetermined single copy orthologous genes (BUSCO or OrthoDB), predetermined genes for which probes are supposed to enrich loci (targetted capture, UCE or AHE approaches) or even other datasets in which you want to recover a set of known genes for new taxa for further analysis (e.g., like salivary proteins?). 
+
+It can be used an transcriptomic, low coverage or well-assembled genomic data or capture data. It is especially useful for combining these different types of data for a comprehensive phylogenetic analysis. It is also particularly robust for reocovering genes across large phylogenetic distances unlike many other programs.
+
+*If I want to recover a set of pre-determined loci from newly sequences transcriptomes what default parametrs would I use? What parameters might I adjust to get better recovery?*
+
+*If I want to recover a set of pre-determined loci from newly sequenced low coverage genome data what default parametrs would I use? What parameters might I adjust to get better recovery? *
+
+*If I want to recover a set of pre-determined loci from newly sequenced target capture data what default parametrs would I use? What parameters might I adjust to get better recovery? *
+
+*Why is this program using Python 2....you are a noob!*
+
+*What is the best way to assess different parameters I've used to determine which ones work the best in terms of low false postive rates and maximum recovery?*
+
+*I work on a non-model organism and I have a a very low coverage genome but I want to include it in a phylogenetci analysis with some well relatively well sequences trancriptomes from the same kind or organism. What is the best way to test out the program to see if it works for me?*
+
+
+
+
+
+
+
