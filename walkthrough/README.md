@@ -99,9 +99,9 @@ OK Nevermind...FAQ:
 
 *What kinds of datasets are suitable for AliBaSeq?*
 
-Any kind of genetic datasets in which you want to analyse a subset of loci for a phylogeny. The subset may include predetermined single copy orthologous genes (BUSCO or OrthoDB), predetermined genes for which probes are supposed to enrich loci (targetted capture, UCE or AHE approaches) or even other datasets in which you want to recover a set of known genes for new taxa for further analysis (e.g., like salivary proteins?). 
+Any kind of genetic datasets in which you want to analyse a subset of loci for a phylogeny. The subset may include predetermined single copy orthologous genes (BUSCO or OrthoDB), predetermined genes for which probes are supposed to enrich loci (targeted capture, UCE or AHE approaches) or even other datasets in which you want to recover a set of known genes for new taxa for further analysis (e.g., like salivary proteins?). 
 
-It can be used on transcriptomic, low coverage or well-assembled genomic data or capture data. It is especially useful for combining these different types of data for a comprehensive phylogenetic analysis. It is also particularly robust for recovering genes across large phylogenetic distances unlike many other programs.
+It can be used on transcriptomic, low coverage or well-assembled genomic data or sequence capture assemblies. It is especially useful for combining these different types of data for a comprehensive phylogenetic analysis. It is also particularly robust for recovering genes across large phylogenetic distances unlike many other programs.
 
 *If I want to recover a set of pre-determined loci from newly sequences transcriptomes what default parametrs would I use? What parameters might I adjust to get better recovery?*
 
